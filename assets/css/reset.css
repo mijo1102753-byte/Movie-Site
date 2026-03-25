@@ -95,7 +95,7 @@ button {
 /* 반응형 */
 video,
 img {
-  /* width: 100%; */
+  width: 100%;
 }
 
 /* clearfix */

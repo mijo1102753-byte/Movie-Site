@@ -203,7 +203,7 @@
     padding: 24px 0;
   }
 
-  .movie .ir_so {
+  .movie h2.ir_so {
     position: static;
     width: auto;
     height: auto;
@@ -272,7 +272,7 @@
   #movie .row {
     padding: 0 12px;
   }
-  .movie .ir_so {
+  .movie h2.ir_so {
     font-size: 18px;
   }
   .movie_title ul li a {

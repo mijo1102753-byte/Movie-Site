@@ -1,0 +1,24 @@
+/* 뉴(새로운) 영역 */
+.new {
+  padding: 100px 0;
+}
+.new h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.new_inner {
+  display: flex;
+  gap: 22px;
+}
+.new_left {
+  flex: 1;
+  height: 500px;
+  background: url(../img/new01.jpg) center center;
+  background-size: cover;
+}
+.new_right {
+  width: 400px;
+  height: 500px;
+  background-color: palevioletred;
+}

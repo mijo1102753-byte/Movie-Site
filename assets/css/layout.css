@@ -10,10 +10,17 @@
   padding: 24px;
 }
 #event {
+  background-color: #fff;
+  padding: 24px;
 }
 #opening {
+  padding: 24px;
+  background: url(../img/bg01.jpg) no-repeat center top;
+  background-size: cover;
 }
 #new {
+  background-color: bisque;
+  padding: 24px;
 }
 #help {
 }
