@@ -1,8 +1,5 @@
 /* 미디어 쿼리 */
 @media (max-width: 1300px) {
-  .container {
-    width: 100%;
-  }
 }
 @media (max-width: 1024px) {
 }
@@ -13,6 +10,4 @@
 @media (max-width: 600px) {
 }
 @media (max-width: 480px) {
-}
-@media (max-width: 320px) {
 }

@@ -32,29 +32,42 @@
   justify-content: space-between;
   padding: 0 3%;
 }
+
 .open_box > div {
   border: 1px solid rgba(255, 255, 255, 0.5);
   width: 25%;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
-  position: relative;
+  /* position: relative; */
+  transform: scale(0);
+  transition: transform 0.3s;
+}
+.open_box > div.bounce {
+  transform: scale(1);
+}
+.open_box > div:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.open_box > div:nth-child(3) {
+  transition-delay: 0.4s;
 }
 .open_box > div h3 {
   display: inline-block;
   font-size: 19px;
   font-weight: 300;
-  padding: 8px 12px;
+  padding: 10px 20px;
   background-color: #38116a;
   border: 1px solid #6e24cf;
-  position: absolute;
+  /* position: absolute;
   top: -20px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); */ /* position 으로 하면 미디어 쿼리에서 엄천 쪼개야함*/
+  margin-top: -25px;
 }
 .open_box > div p {
   font-size: 23px;
   font-weight: 300;
-  padding: 15% 0 10% 0;
+  padding: 6% 0 10% 0;
 }
 .open_box > div p em {
   display: block;
@@ -69,8 +82,7 @@
     width: 100%;
   }
 }
-@media (max-width: 1190px) {
-}
+
 @media (max-width: 1024px) {
 }
 @media (max-width: 960px) {
@@ -86,13 +98,13 @@
     width: 30%;
   }
   .opening .date {
-    font-size: 23px;
+    font-size: 25px;
   }
   .opening .desc {
-    font-size: 23px;
+    font-size: 25px;
   }
   .open_box > div p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media (max-width: 768px) {
