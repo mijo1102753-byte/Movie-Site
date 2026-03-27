@@ -85,6 +85,7 @@
   display: inline-block;
   border: 0 none;
   box-sizing: border-box;
+  border-radius: 0;
 }
 .new_right .select .s2 {
   width: 49%;
